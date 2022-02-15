@@ -14,7 +14,7 @@ read -p "Enter Your Special-WaterMark : " tradename
 while read line 
 do
     name=$line 
-    whois $name | grep "${tradename}" && echo "${name}" | tee -a finaleout.txt  
+    whois $name | grep "${tradename}" && echo "${name}" | tee -a finalout.txt  
     sleep 1
 done < $domain_list
 echo "${red}"
