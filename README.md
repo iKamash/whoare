@@ -12,7 +12,7 @@ $ ./whoare.sh
 ```
 
 # Example 
-lets say that you love to hunt on [AT&T](https://hackerone.com/att) and att have very large scope and you got very large number of domains so you run the script and put your text that you want to grep for example ` AT&T Services Inc` so it will save all the domains that ther result from whois have ` AT&T Services Inc` in it 
+lets say that you love to hunt on [AT&T](https://hackerone.com/att) and att have very large scope and you got very large number of domains so you run the script and put your text that you want to grep for example ` AT&T Services Inc` so it will save all the domains that ther result from whois have ` AT&T Services Inc` in it, in `finalout.txt`. 
 
 
 #### Note :that you can move it to /usr/local/bin/ and run it anyware and feel free to edit the code ☺ .
